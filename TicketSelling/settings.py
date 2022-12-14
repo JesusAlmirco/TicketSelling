@@ -29,6 +29,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    # Local apps
+    'event.apps.EventConfig',
+    'reservation.apps.ReservationConfig',
+    'ticket.apps.TicketConfig',
+    'payment.apps.PaymentConfig',
 ]
 
 MIDDLEWARE = [
