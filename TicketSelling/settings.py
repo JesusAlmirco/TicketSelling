@@ -117,6 +117,10 @@ STATICFILES_DIRS = [
     BASE_DIR / 'TicketSelling/static',
 ]
 
+# DJANGO-PAYPAL settings
+PAYPAL_RECEIVER_EMAIL = 'business@account.com'
+PAYPAL_TEST = True
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
